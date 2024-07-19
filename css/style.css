@@ -1,0 +1,137 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0c25;
+    color: #fff;   
+}
+
+a{ 
+    text-decoration: none;
+    color: #FE8849;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #a03e0a;
+}
+
+#login {
+    text-align: center;
+    justify-content: center;   
+    align-items: center;   
+    display: flex;
+    flex-direction: row;
+}
+
+.name input{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding: 0px 30px 0px 20px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.email input{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding: 0px 30px 0px 20px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    display: flex;
+
+}
+
+.password{
+    justify-content: center;
+}
+.password input{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding: 0px 30px 0px 20px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-top: 15px;
+
+}
+
+.password i{
+    font-size:17px;
+    cursor: pointer;
+
+    position:relative;
+    right: 13%;
+    color: #ccc
+    
+}
+
+.confirmpassword{
+    justify-content: center;
+}
+.confirmpassword input{
+    border-radius: 10px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding: 0px 30px 0px 20px;
+    background-color: #1e1c2e;
+    color: #b6b6b6;
+    margin-top: 15px;
+
+}
+
+.confirmpassword i{
+    font-size:17px;
+    cursor: pointer;
+
+    position:relative;
+    right: 13%;
+    color: #ccc
+    
+}
+
+.submit input{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f0712d;
+    color: #ffffff;
+    border-radius: 0,0, 12px;
+}
+
+.submit input:hover{
+    background-color: #a03e0a;
+    color: #ffffff;
+}
+
+input::placeholder{
+    color:#b6b6b6
+}
+
+h1{
+    color: #fafafa;
+}
+
+.box{
+    margin-top: 25px;
+    padding: 40px 45px;
+    background-color: #1e1a3b ;
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px #0c0c0eef;
+}
+
+.box img{
+    width: 150px;
+}
+
+input:focus{
+    outline: none;
+}
